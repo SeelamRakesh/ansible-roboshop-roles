@@ -13,9 +13,9 @@
     name: common
     tasks_from: systemd_setup.yaml
 
-- name: start {{ component }}
+- name: start "{{ component }}""
   ansible.builtin.service:
-    name: {{ component }}
+    name: "{{ component }}"
     state: restarted
     enabled: yes
     
