@@ -1,0 +1,5 @@
+- name: Ansible roles
+  hosts: local
+  connections: local
+  roles:
+  - demo
