@@ -2,4 +2,4 @@
   hosts: local
   connection: local
   roles:
-  - include-vs-import.yaml
+  - include-vs-import
