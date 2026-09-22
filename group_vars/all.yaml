@@ -1,4 +1,4 @@
-ansible_name: ec2_user
+ansible_name: ec2-user
 ansible_password: DevOps321
 MONGODB_HOST: mongodb-dev.rakesh.bond
 REDIS_HOST: redis-dev.rakesh.bond
