@@ -1,4 +1,6 @@
 - name: Include vs Import role
+  tags: 
+  - deployment
   #ansible.builtin.import_role:
   ansible.builtin.include_role:
    name: common

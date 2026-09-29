@@ -3,8 +3,6 @@
    msg: "Hi from test 1"
 
 - name: Testing 2
-  tags: 
-  - deployment
   ansible.builtin.debug:
    msg: "Hi from test 2"
 
